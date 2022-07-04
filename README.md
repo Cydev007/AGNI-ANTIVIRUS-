@@ -24,7 +24,7 @@ In October 2012, the NIST chose the Keccak algorithm as the new SHA-3 standard.
 
 #### In this project we have used 3 major hashing functions; MD5, SHA-1, SHA-256.
 
-### How Script Works
+### How The Script Works
 ![image](https://user-images.githubusercontent.com/108612723/177182720-bd355dc9-e474-4579-bc4b-711bfdf13c26.png)
 
 When the script is executed, the functions open the file in binary mode and stores the binary value of the selected file into a variable. Then the desired hash value is generated using the variable storing the binary value of the original file with predefined hashlib function and stored into a different variable.
