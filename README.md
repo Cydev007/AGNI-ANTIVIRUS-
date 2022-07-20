@@ -1,5 +1,4 @@
 # AGNI-ANTIVIRUS
-Our Antivirus ‘AGNI V2.0’  is eligible to perform 2 tasks. First, to perform File & Folder Scan For Virus, Payloads and Second, to Detect malicious URLs using Machine Learning.
 ## Developed by Cydev007 & Psbcg433
 *************************************************************************************************************************************************************
 ## i. Malicious File Detection 
@@ -52,11 +51,6 @@ After completing up till this, then the stored hash value is checked with the av
 
 
 The file is being checked with all the three hashing functions (i.e., MD5, SHA-1, SHA-256). If any one of the hashing functions declares the scanned file as virus, then overall the file is declared as a virus rather being declared safe by the other hashing functions and the next step is being initiated by the OS own by own. Same as that, if and only if the scanned file is declared safe by all the three hashing functions, then only the original file overall is declared safe and secure.
-
-
-
-## ii. Malicious URL Detection
-stay tuned, we will update soon
 
 
 
